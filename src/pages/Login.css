@@ -1,0 +1,212 @@
+.back{
+    background-image: url(https://images.pexels.com/photos/5632400/pexels-photo-5632400.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size:cover;
+    height: 100vh;
+    /* margin-top: 0px; */
+    /* position:relative; */
+    overflow-y: hidden;
+    /* margin-bottom: 100px; */
+}
+.container{
+    /* position: absolute; */
+    display: flex;
+    right: 400px;
+    flex-direction: column;
+    margin: auto;
+    width: 600px;
+    margin-top: 50px;
+    background: #fff;
+    padding-bottom: 10px;
+    /* border-radius: 20px; */
+   }
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 10px;  
+}
+.text{
+    color: #40ade0;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.inputs{
+   margin-top: 15px;
+   display: flex;
+   flex-direction: column;
+   gap: 25px; 
+}
+.input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 480px;
+    height: 80px;
+    background: #eaeaea;
+    border-radius: 6px;
+}
+.input img{
+    margin: 0px 30px;
+}
+.input input{
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+   font-size: 19px;
+}
+.forgotpw{
+    padding-left:58px;
+    margin-top: 20px;
+    color: #797979;
+    font-size: 17px;  
+}
+.forgotpw span{
+    color: #40ade0;
+    cursor: pointer;   
+}
+.Submit-container{
+    display: flex;
+    gap: 30px;
+    margin: 30px auto;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 49px;
+    color: #fff;
+    background: #40ade0;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.gray{
+    background: #EAEAEA;
+    color: #676767;
+
+}
+.register{
+    padding-left:10px;
+    margin-top: -10px;
+    color: #797979;
+    font-size: 15px; 
+    text-align: center;
+}
+.register span{
+    color: #40ade0;
+    cursor: pointer; 
+}
+@media (max-width:799px) {
+    .container{
+        position: absolute;
+        display: flex;
+        right: 88px;
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+        width: 600px;
+        margin-top: 50px;
+        background: #fff;
+        padding-bottom: 10px;
+        border-radius: 0px;
+       }
+}
+@media (max-width:477px) {
+  .back{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+   
+  }
+    .container {
+        width: 250px;
+        border-radius: 0px;
+        display: flex;
+        flex-direction: column; /* Center child elements vertically */
+        align-items: center; /* Center child elements horizontally */
+        justify-content: center;
+        left: 15%;
+        right: 15%;
+        /* left: 70px; */
+    }
+    .inputs{
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px ; 
+     }
+     .input{
+         display: flex;
+         align-items: center;
+         /* margin: auto; */
+         width: 180px;
+         height: 25px;
+         background: #eaeaea;
+         border-radius: 6px;
+     }
+    .input img{
+        margin: 0px 10px;
+        width: 15px;
+    }
+    .input input{
+        height: 20px;
+        width: 200px;
+        background: transparent;
+        border: none;
+        outline: none;
+        color: #797979;
+       font-size: 13px;
+    }
+    .text{
+        color: #40ade0;
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .Submit-container{
+        display: flex;
+        gap: 30px;
+        margin: 5px auto;
+    }
+    .submit{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 65px;
+        height: 29px;
+        color: #fff;
+        background: #40ade0;
+        border-radius: 50px;
+        font-size: 13px;
+        font-weight: 700;
+        cursor: pointer;
+    }
+    .forgotpw{
+        padding-left:48px;
+        margin-top: 10px;
+        color: #797979;
+        font-size: 9px;  
+    }
+    .forgotpw span{
+        color: #40ade0;
+        cursor: pointer;   
+    }
+    .register{
+        padding-left:10px;
+        margin-top: 5px;
+        color: #797979;
+        font-size: 10px; 
+        text-align: center;
+    }
+    .register span{
+        color: #40ade0;
+        cursor: pointer; 
+    }
+}
